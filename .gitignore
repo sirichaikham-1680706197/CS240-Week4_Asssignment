@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Images
+images/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini

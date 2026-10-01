@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sirichai Khamsukalert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <nav class="top-nav" id="topNav">
+            <a href="index.html" class="active">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="gallery.html">GALLERY</a>
+        </nav>
+
+        <button class="menu-button" onclick="showMenu()">☰</button>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>HOME</h1>
+            <hr>
+        </section>
+
+        <section class="portfolio">
+            <div class="hero">
+                <h2>Sirichai Khamsukalert</h2>
+                <p>SID 1680706197 No.29</p>
+                <span></span>
+            </div>
+
+            <section class="cards">
+
+                <article class="card">
+                    <img class="image" src="./images/html.jpeg" alt="HTML and CSS">
+                    <div class="card-info">
+                        <h3>HTML & CSS</h3>
+                        <p>Responsive web design</p>
+                        <p>Web page development</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/JavaScript.jpeg" alt="JavaScript">
+                    <div class="card-info">
+                        <h3>JavaScript</h3>
+                        <p>Basic programming</p>
+                        <p>Interactive web pages</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/Python.jpeg" alt="Python">
+                    <div class="card-info">
+                        <h3>Python</h3>
+                        <p>Programming practice</p>
+                        <p>Data structures</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/Database.jpeg" alt="Database">
+                    <div class="card-info">
+                        <h3>Database</h3>
+                        <p>Database design</p>
+                        <p>SQL and data</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/Data Structures.jpeg" alt="Data Structures">
+                    <div class="card-info">
+                        <h3>Data Structures</h3>
+                        <p>Stack and Queue</p>
+                        <p>Linked List</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/Computer Network.jpeg" alt="Computer Network">
+                    <div class="card-info">
+                        <h3>Computer Network</h3>
+                        <p>Network fundamentals</p>
+                        <p>OSI Model</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/Web Development.jpeg" alt="Web Development">
+                    <div class="card-info">
+                        <h3>Web Development</h3>
+                        <p>HTML CSS JavaScript</p>
+                        <p>Responsive websites</p>
+                        <p>2nd year</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="image" src="./images/My Goal.jpeg" alt="My Goal">
+                    <div class="card-info">
+                        <h3>My Goal</h3>
+                        <p>Full-Stack Developer</p>
+                        <p>Build useful websites</p>
+                        <p>Keep learning</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <footer>
+                <h2>Learning. Coding. Growing.</h2>
+                <p>I'm a Computer Science student at Bangkok University.</p>
+            </footer>
+        </section>
+    </main>
+
+    <script>
+        function showMenu() {
+            document.getElementById("topNav").classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>

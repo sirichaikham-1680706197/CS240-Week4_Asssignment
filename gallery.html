@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Sirichai Khamsukalert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <nav class="top-nav" id="topNav">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="gallery.html" class="active">GALLERY</a>
+        </nav>
+
+        <button class="menu-button" onclick="showMenu()">☰</button>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>GALLERY</h1>
+            <hr>
+        </section>
+
+        <section class="gallery">
+
+            <img class="gallery-image" src="./images/gallery1.jpeg" alt="Portfolio Website">
+
+            <img class="gallery-image" src="./images/gallery2.jpeg" alt="Responsive Web Design">
+
+            <img class="gallery-image" src="./images/gallery3.jpeg" alt="JavaScript Calculator">
+
+            <img class="gallery-image" src="./images/gallery4.jpeg" alt="Python Programming">
+
+            <img class="gallery-image" src="./images/gallery5.jpeg" alt="Data Structures">
+
+            <img class="gallery-image" src="./images/gallery6.jpeg" alt="Database">
+
+            <img class="gallery-image" src="./images/gallery7.jpeg" alt="Computer Network">
+
+            <img class="gallery-image" src="./images/gallery8.jpeg" alt="Computer Science">
+
+        </section>
+        </section>
+    </main>
+    <script>
+        function showMenu() {
+            document.getElementById("topNav").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>

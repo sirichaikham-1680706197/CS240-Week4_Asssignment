@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Sirichai Khamsukalert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <nav class="top-nav" id="topNav">
+            <a href="index.html">HOME</a>
+            <a href="about.html" class="active">ABOUT</a>
+            <a href="gallery.html">GALLERY</a>
+        </nav>
+
+        <button class="menu-button" onclick="showMenu()">☰</button>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h1>ABOUT</h1>
+            <hr>
+        </section>
+
+        <section class="portfolio about-page">
+            <div class="about-hero">
+                <h2>นักศึกษาวิทยาการคอมพิวเตอร์</h2>
+                <h3>มหาวิทยาลัยกรุงเทพ</h3>
+                <span></span>
+            </div>
+
+            <section class="questions">
+                <article>
+                    <h3>ผมเป็นใคร</h3>
+                    <p>
+                        ผมเป็นนักศึกษาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 2 มหาวิทยาลัยกรุงเทพ สนใจด้านการเขียนโปรแกรม
+                        การพัฒนาเว็บไซต์ และการเรียนรู้เทคโนโลยีใหม่ ๆ
+                    </p>
+                </article>
+
+                <article>
+                    <h3>ผมสนใจอะไร</h3>
+                    <p>
+                        ผมชอบสร้างเว็บไซต์ที่ใช้งานง่ายและดูทันสมัย สนใจการเขียนโค้ด และชอบทดลองเทคโนโลยีใหม่ ๆ
+                        เพื่อพัฒนาทักษะของตัวเอง
+                    </p>
+                </article>
+
+                <article>
+                    <h3>เป้าหมายของผมคืออะไร</h3>
+                    <p>
+                        เป้าหมายของผมคือการเป็น Full-Stack Developer ที่สามารถพัฒนาเว็บไซต์ได้ทั้ง Front-End และ
+                        Back-End และสร้างผลงานที่มีประโยชน์ต่อผู้ใช้งาน
+                    </p>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script>
+        function showMenu() {
+            document.getElementById("topNav").classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>
